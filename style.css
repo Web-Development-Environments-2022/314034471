@@ -78,7 +78,14 @@ p{
 	font-size: 32px; 
 	font-style: italic;
 	
-} 
+}
+
+p2{
+	text-align: center;
+	color: rgb(136, 56, 6);
+	font-size: 22px; 
+	font-style: italic;
+}
 
 
   
