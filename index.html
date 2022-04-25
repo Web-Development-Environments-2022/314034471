@@ -1,10 +1,20 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <title>The Cash Zone</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://onesignal.github.io/emoji-picker/lib/css/emoji.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
 <div id="menu">
+  <div class="table">
+
+    <ul id="horizontal-list">
+ <img class="logo" src="1213.png">
 <li><a href="#about">About Me</a></li>
 <li><a href="#photos">My Photos</a></li>
 <li><a href="#playlist">My Playlist</a></li>
@@ -12,35 +22,95 @@
 <li><a href="#qrcoder">QR code</a></li>
 <li><a href="#spa">Q&A</a></li>
 <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </div>
 </div>
-		  
+<br/>
+<br/>
+<br/>
+
 <section id="about" class="section">
 <br/>
 <br/>
 <br/>
+<h1 class="mineh1">About Me</th1>
+<br/>
+<br/>
+<p>Johnny Cash was born in 1932 and was one of the most celebrated and honored country singers of all time.<br/><br/>
+   His signature song was "I Walk the Line."Much of Cash's music contained themes of sorrow,<br/><br/> moral tribulation,
+    and redemption, especially in the later stages of his career.Cash rose to fame<br/><br/> during the mid-1950s
+     in the burgeoning rockabilly scene in Memphis, Tennessee,<br/><br/> after four years in the Air Force. He traditionally
+      began his concerts by simply introducing himself,<br/><br/> "Hello, I'm Johnny Cash", followed by "Folsom Prison Blues",
+       one of his signature songs.<br/><br/> Cash died of complications from diabetes  on September 12, 2003, aged 71.</p>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
+
 </section>
 
 <section id="photos" class="section">
 <br/>
 <br/>
 <br/>
+<h2 class="mineh1">My Photos</h2>
+<br/>
+<br/>
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="31.jpg" style="width:70%" >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="32.jpg" style="width:70%"  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="33.jpg" style="width:70%"   >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="34.jfif" style="width:50%"  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="35.jfif" style="width:50%;height:600px;"  >
+    </div>
+
+    <div class="mySlides">
+     <div class="numbertext">6 / 6</div>
+       <img src="36.jfif" style="width:50%;height:500px;">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="31.jpg" style="width:70%" onclick="currentSlide(1)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="32.jpg" style="width:70%" onclick="currentSlide(2)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="33.jpg" style="width:70%" onclick="currentSlide(3)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="34.jfif" style="width:70%" onclick="currentSlide(4)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="35.jfif" style="width:70%" onclick="currentSlide(5)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="36.jfif" style="width:70%" onclick="currentSlide(6)" >
+      </div>
+    </div>
+
 <br/>
 <br/>
 <br/>
@@ -48,38 +118,23 @@ about me
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+
 </section>
 
 <section id="playlist" class="section">
 <br/>
 <br/>
 <br/>
+  <h2 class="mineh1">My Playlist</h2>
+<br/>
+<br/>
+<br/>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=OLAK5uy_l4vqmG6veimvS97Yz9DFb0d7zcSXnaxCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
+
 <br/>
 </section>
 
@@ -87,29 +142,28 @@ my playlist
 <br/>
 <br/>
 <br/>
+<h2 class="mineh1">Like Me</h2>
+<br/>
+<br/>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v13.0" nonce="u4QnIwjU"></script>
+<br/>
+<br/>
+  <div class="fb-like" data-href="https://www.facebook.com/johnnycash" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="false"></div>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+
 </section>
 
 <section id="qrcoder" class="section">
 <br/>
 <br/>
 <br/>
+<h1 class="mineh1">Scan My Code</h1>
 <br/>
 <br/>
 <br/>
@@ -120,33 +174,61 @@ give me a like
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+
 </section>
 
 <section id="spa" class="section">
 <br/>
 <br/>
 <br/>
+<h2 class="mineh1">Q&A</h2>
 <br/>
 <br/>
 <br/>
+<table class="table table-responsive" allign="center">
+  <tbody>
+    <tr>
+      <td>
+        <strong>Web 1.0</strong>
+      </td>
+      <td><strong>Web 2.0</strong>
+      </td>
+      <td><strong>Web 3.0</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>Read-only web</td>
+      <td>Read-write web</td>
+      <td>Read-write-execute web</td>
+    </tr>
+   
+    <tr>
+      <td>The purpose is information sharing</td>
+      <td>It is about interaction</td>
+      <td>It aims at immersion</td>
+    </tr>
+    <tr>
+      <td>The content was owned</td>
+      <td>Shared content</td>
+      <td>Content will be collectively owned and shared</td>
+    </tr>
+    <tr>
+      <td>More of a simple and passive web</td>
+      <td>More of a social Web &nbsp;</td>
+      <td>It is a semantic web</td>
+    </tr>
+    
+    <tr>
+      <td>Static websites</td>
+      <td>Introduction of web applications</td>
+      <td>Web-based intelligent functionalities and applications</td>
+    </tr>
+
+  </tbody>
+</table>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
 <br/>
 <br/>
 <br/>
@@ -156,23 +238,39 @@ ans
 <br/>
 <br/>
 <br/>
+<h2 class="mineh1">Contact Me</h2>
+<br/>
+<br/>
+<br/>
+<form action="mailto:tommygoldenberg@gmail.com"
+ method="POST"
+ enctype="multipart/form-data"
+ name="EmailForm">
+    <h2>Name: </h2>
+    <br>
+    <input type="text" size="19" name="Contact-Name"  ><br><br>
+    <h2>Your Email:</h2> <br>
+    <input type="email" name="Contact-Email"><br><br> 
+    <h2>Message:</h2><br> 
+    <textarea name="Contact-Message" rows="6″ cols="20″>
+    </textarea>
+    <div class="container full-width">
+      <div class="row justify-content-center">
+            <p class="lead emoji-picker-container">
+              <textarea type="textbox" data-emoji-input="unicode" class="form-control" placeholder="Input field" data-emojiable="true"></textarea>
+            </p>            
+      </div>
+    </div>
+
+    <button type="submit" value="Submit">Send</button>
+</form>  
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+
 </section>
 
 
@@ -187,7 +285,58 @@ $(function(){
 <script type="text/javascript">
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+ });
+</script>
+
+<script type="text/javascript">
+ let slideIndex = 1;
+// showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<script>
+       $(function() {
+        // Initializes and creates emoji set from sprite sheet
+        window.emojiPicker = new EmojiPicker({
+          emojiable_selector: '[data-emojiable=true]',
+          assetsPath: 'http://onesignal.github.io/emoji-picker/lib/img/',
+          popupButtonClasses: 'fa fa-smile-o'
+        });
+        // Finds all elements with `emojiable_selector` and converts them to rich emoji input fields
+        // You may want to delay this step if you have dynamically created input fields that appear later in the loading process
+        // It can be called as many times as necessary; previously converted input fields will not be converted again
+        window.emojiPicker.discover();
+      });
+</script>
+<script src="http://onesignal.github.io/emoji-picker/lib/js/config.js"></script>
+<script src="http://onesignal.github.io/emoji-picker/lib/js/util.js"></script>
+<script src="http://onesignal.github.io/emoji-picker/lib/js/jquery.emojiarea.js"></script>
+<script src="http://onesignal.github.io/emoji-picker/lib/js/emoji-picker.js"></script>
 </body>
 </html>
